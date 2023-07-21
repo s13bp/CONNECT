@@ -211,7 +211,7 @@
                 <img style="margin-top: 2rem; width:700px; float: right;" src="./fyatu.png" alt="">
              
              </div>
-                <div class="opening-main" style="margin-left: 2rem;">
+                <div class="opening-main" >
                     <div class="opening-main-title">
                         <img class="decor-line" src="images/dist/opening-decor-1.png" alt="decor">
                         <div class="rectangles">
@@ -332,7 +332,7 @@
             </div>
         </div>
 
-        <section  class="about-section">
+        <section  class="about-section" style="margin-left: 0 !important;">
             <div class="container">
                 <div class="about-main">
                     <div class="about-main-title" >
@@ -343,8 +343,22 @@
                                 }
 
                                 @media screen and (max-width: 480px) {
-                                body {
+                                .papa, .opening-main {
                                     width: fit-content;
+                                }
+                                .opening-main-title {
+                                    margin-top: -1rem !important;
+                                }
+                                .about-main-facts {
+                                    margin-top: 40px !important;
+                                }
+                                .mama {
+                                    margin-bottom: 5rem;
+                                }
+                                .box img {
+                                    width: 50vw !important;
+                                    height: auto;
+                                    margin-left: 25%;
                                 }
                                 }
                         </style>
@@ -400,7 +414,7 @@
             </div>
         </section><br><br>
         <section class="work-section">
-            <div class="container">
+            <div class="container mama">
                 <div class="work-main">
                     <h2 id="roadmap" class="title-h1 up-text anim-text">Get ready for <br>
                         <span class="special"> $PCT!</span> 
@@ -607,21 +621,25 @@ div#slider figure {
     font-weight: bold;
     text-align: center;
     color: aliceblue;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .wrap{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 30px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 3rem;
      
  
 }
-.box{
+.box img{
     background: rgba(128, 128, 128, 0);
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
 }
 
 .social{
