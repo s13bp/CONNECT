@@ -4549,8 +4549,8 @@ main.contact_page .contact_footer .footer-copy {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 4.31rem;
-    height: 5.12rem;
+    width: 4.6rem;
+    height: 7rem;
     background: rgba(2, 137, 87, .3);
     position: relative;
     cursor: pointer;
@@ -4700,14 +4700,16 @@ main.contact_page .contact_footer .footer-copy {
     overflow: hidden;
     -webkit-transition: all ease .3s;
     -o-transition: all ease .3s;
-    transition: all ease .3s
+    transition: all ease .3s;
+    padding: 0;
 }
 
 .work-main-project-element-text-desc p {
     font-family: var(--main-font);
-    font-size: 18px;
-    line-height: 20px;
-    color: #d3ebe3
+    font-size: 16px;
+    line-height: 16px;
+    color: #d3ebe3;
+    padding: 0;
 }
 
 .work-main-project-element-text .work-main-project-element-text h3 {
@@ -4740,13 +4742,12 @@ main.contact_page .contact_footer .footer-copy {
 }
 
 .work-main-project:hover .work-main-project-element-text {
-    margin-bottom: .28rem;
-    padding-bottom: .54rem
+margin-top: -0.21rem;
 }
 
 .work-main-project:hover .work-main-project-element-text-desc {
-    height: 4.2rem;
-    margin-top: .16rem
+    height: 4.5rem;
+    margin-top: -.01rem
 }
 
 .work-main-project:hover .work-main-project-element-link {
